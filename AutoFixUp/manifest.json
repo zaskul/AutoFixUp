@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Auto fixup Twitter",
+    "description": "Automatically change the x. url to fixupx. in order to make sharing tweets on platforms such as Discord more easy",
+    "version": "1.0",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["activeTab","storage", "clipboardRead", "*://twitter.com/*", "*://x.com/*"],
+    "content_scripts": [{
+        "matches": ["*://twitter.com/*", "*://x.com/*"],
+        "js": ["content.js"]
+    }],
+    "browser_action": {
+        "default_icon": "/images/ok.png",
+        "default_title": "Make the embeds great again"
+    }
+}

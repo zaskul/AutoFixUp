@@ -8,7 +8,7 @@ Load the `AutoFixUp.crx` file to your browser and install it.
 
 ## Usage
 
-Click the `Copy Link` option in the `x.com` share menu and you're ready to go.
+Click the `Copy Link` option in the `x.com` share menu and the correctly formatted URL will be in your clipboard ready to be pasted.
 
 ## License
 

@@ -12,4 +12,4 @@ Click the `Copy Link` option in the `x.com` share menu and the correctly formatt
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](LICENSE.txt)
